@@ -159,8 +159,8 @@ input{
  /* Responsividade */
 @media screen and (max-width:680px){
     .myphoto{
-        width: 151px;
-        height: 201,5px;
+        width: 302px;
+        height: 403px;
         border-radius: 15%;
         border: #000000 solid 2px;
         display: block;
@@ -170,8 +170,8 @@ input{
     /* Responsividade */
     @media screen and (max-width:530px){
         .myphoto{
-            width: 151px;
-            height: 201,5px;
+            width: 302px;
+            height: 403px;
             border-radius: 15%;
             border: #000000 solid 2px;
             display: block;
