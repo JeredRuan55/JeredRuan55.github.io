@@ -1,3 +1,4 @@
+/* Estilização do body */
 body{
     background-color: rgb(2, 35, 67);
     color: white;
@@ -7,6 +8,7 @@ body{
     padding: 15px;
 }
 
+/* Estilização da header */
 header{
     display: flex;
     flex-direction: row;
@@ -14,6 +16,7 @@ header{
     align-items: center;
 }
 
+/* Proporção da foto */
 .myphoto{
         width: 453px;
         height: 604,5px;
@@ -22,72 +25,81 @@ header{
         display: block;
     }
 
+    /* Posição do Title */
 #title{
     flex-direction: column;
     line-height: 10px;
 }
 
+/* Posição dos links */
 li{
     display: inline-block;
     margin: 20px;
 }
 
+/* Cor dos ícones */
 a{
     color: white;
 }
 
+/* Cor e transição da Nav.bar */
 a:hover{
     color: rgb(132, 14, 201);
     transition: 0.3s all;
 }
 
+/* Estilização do botão da Nav.bar */
 #inscreva-se-btn{
     border: 2px solid rgb(132, 14, 201);
     padding: 10px;
     border-radius: 15px;
 }
 
+/* Estilização de quando passar com o mouse */
 #inscreva-se-btn:hover{
     background-color: rgb(132, 14, 201);
     color: white;
 }
 
+/* Tamanho do h1 */
 h1{
     font-weight: 200;
 }
 
+/* Posição da main */
 main{
     display: flex;
     flex-direction: row;
     margin-top: 50px;
 }
 
+/* Tamanho e fonte do h2 */
 h2{
     font-size: 56px;
     line-height: 10px;
     font-family: 'Poppins';
 }
 
+/* Cor do Span */
 span{
     color: rgb(132, 14, 201);
 }
 
+/* Tamanho e fonte do páragrafo */
 p{
     line-height: 20px;
     max-width: 500px;
     font-family: 'Poppins';
 }
 
-img{
-    width: 580px;
-}
-
+/* Posição das caixinhas de interação */
 form{
     display: flex;
     flex-direction: column;
     width: 70%;
 }
 
+/* Estilização do form */
 form [type="submit"]{
     height: 50px;
     width: 50%;
@@ -95,10 +107,13 @@ form [type="submit"]{
     color: white;
     font-weight: bold;
 }
+
+/* Forma que o cursor se move */
 form [type="submit"]:hover{
     cursor: pointer;
 }
 
+/* Posição do Input */
 input{
     margin-top: 20px;
     height: 20px;
@@ -108,7 +123,64 @@ input{
     font-size: 15px;
 }
 
+/* Posição das SocialMedias */
 .SocialMedias{
 
     padding-top: 25px;
 }
+
+ /* Responsividade */
+@media screen and (max-width:970px){
+.myphoto{
+    width: 302px;
+    height: 403px;
+    border-radius: 15%;
+    border: #000000 solid 2px;
+    display: block;
+        }
+}
+
+ /* Responsividade */
+@media screen and (max-width:820px){
+    .myphoto{
+        width: 226,5px;
+        height: 302,25px;
+        border-radius: 15%;
+        border: #000000 solid 2px;
+        display: block;
+    
+    }
+    h2{
+        font-size: 40px;
+    }
+
+}
+
+ /* Responsividade */
+@media screen and (max-width:680px){
+    .myphoto{
+        width: 151px;
+        height: 201,5px;
+        border-radius: 15%;
+        border: #000000 solid 2px;
+        display: block;
+            }
+    }
+
+    /* Responsividade */
+    @media screen and (max-width:530px){
+        .myphoto{
+            width: 151px;
+            height: 201,5px;
+            border-radius: 15%;
+            border: #000000 solid 2px;
+            display: block;
+                }
+                h2{
+                    font-size: 30px;
+                }
+                p{
+                    line-height: 20px;
+                }
+        }
+/* Fim do CSS */
